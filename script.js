@@ -1,9 +1,9 @@
 window.onscroll = function(){
     if(document.body.scrollTop > 80 || document.documentElement.scrollTop > 80){
-        document.querySelector("#nav-bar").className = "navbar navbar-expand-sm p-2 navbar-dark fixed-top"
+        document.querySelector("#nav-bar").className = "navbar navbar-expand-lg p-2 navbar-dark fixed-top"
         document.querySelector("#title").style.fontSize = "30px"
     }else{
-        document.querySelector("#nav-bar").className = "navbar navbar-expand-sm p-4 navbar-dark fixed-top"
+        document.querySelector("#nav-bar").className = "navbar navbar-expand-lg p-4 navbar-dark fixed-top"
         document.querySelector("#title").style.fontSize = "30pt"
     }
 }
